@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Angular App</title>
+    <!-- Chemin vers le fichier JavaScript -->
+</head>
+
+<body>
+    <p>moncomponent works!</p>
+    <h1>Liste des étapes</h1>
+    <ul id="etapes"></ul>
+    <input type="file" id="fileInput">
+    <!-- Modal1-->
+
+    <div class="modal " id="myModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Confirmation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <span id="modal-text"></span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal fade" id="modal-yes">Yes</button>
+                    <button type="button" class="btn btn-secondary " data-dismiss="modal fade" id="modal-no">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal2-->
+
+    <div class="modal " id="promptModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Confirmation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <span id="modal-text1"></span>
+                    <input type="number" id="modalInput" class="form-control">
+
+                </div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal fade" id="modalOKBtn">ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
